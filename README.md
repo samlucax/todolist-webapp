@@ -1,12 +1,7 @@
-# React TodoMVC, including eyes.cypress and eyes.storybook tests
+# React TodoMVC, Redux style, ready for testing
 
 (forked from [Storybook React Samples](https://github.com/kadira-samples/react-storybook-demo), which was
 forked from the [Redux examples directory](https://github.com/reactjs/redux/tree/master/examples/todomvc))
-
-This repo includes an app with support for [React Storybook](https://github.com/kadirahq/react-storybook).
-
-It also includes support for visually testing the TodoMVC app using
-Applitools' [Storybook SDK](https://npmjs.com/package/@applitools/eyes.storybook) and [Cypress SDK](https://npmjs.com/package/@applitools/eyes.cypress).
 
 ## Installation
 
@@ -24,7 +19,7 @@ Run
 npm start
 ```
 
-Then open `http://localhost:3000` on your browser.
+Then open `http://localhost:5000` on your browser.
 
 ![TodoMVC Screenshot](.github/todomvc-screenshot.png)
 
