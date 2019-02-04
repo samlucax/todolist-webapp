@@ -27,8 +27,7 @@ class Header extends Component {
 
     return (
       <header className="header">
-          <h1>todos</h1>
-          {/* <h1 style={{color:'green'}}>todos</h1> */}
+          {new URL(window.location.href).searchParams.get('different-title-color') != null ? <h1 style={{color:'green'}}>todos</h1> : <h1>todos</h1>}
           {
             this.state.delayShowingNewTodo === 0
               ? <TodoTextInput newTodo
